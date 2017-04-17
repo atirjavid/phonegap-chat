@@ -56,7 +56,7 @@
              } else {
                  trackNumber = '' + trackNumber;
              }
-             $('#plList').append('<li class="shadow"><div class="plItem"><h5 class="plName">' + trackName + '</h5><div class="plTitle plTitle-' + trackFile + '">' + trackName + '</div></div></li>');
+             $('#plList').append('<li class="shadow"><div class="plItem"><h3 class="plName">' + trackName + '</h3><div class="plTitle plTitle-' + trackFile + '">' + trackName + '</div></div></li>');
          }),
          trackCount = tracks.length,
          npAction = $('#npAction'),
